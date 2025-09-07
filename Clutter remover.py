@@ -13,7 +13,8 @@
 
 #efficient code by gpt
 import os
-
+from os import listdir, rename
+from os.path import join
 os.chdir("C:/Users/aryan/trial_files")
 mp3_files = [f for f in listdir() if f.endswith(".mp3")]
 
